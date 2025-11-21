@@ -6,12 +6,16 @@ sales = input("How many sales did you make today")
 
 #calculation
 sales = float
-weekly_hours = hours * 7
+weekly_sales = sales * 7
 
 #convert to flaot
 
 try:
-  hours = float(hours)
+  sales = float(sales)
 except ValuieError:
   print(please enter a valid number.")
   exit()
+
+#Display results
+print(f" You are on track to make {weekly_sales} sales this week.")
+
