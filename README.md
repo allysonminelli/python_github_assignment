@@ -1,3 +1,10 @@
+This code tracks daily sales of a company and then calculates with those daily sales how many weekly sales are being made.
+
+python app.py
+
+
+
+
 # python_github_assignment
 #sales tracker
 
